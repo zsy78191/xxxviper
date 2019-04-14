@@ -13,7 +13,7 @@
 		D4F854FE22637248006798C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4F854FD22637248006798C8 /* Assets.xcassets */; };
 		D4F8550122637248006798C8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4F854FF22637248006798C8 /* LaunchScreen.storyboard */; };
 		D4F8550422637248006798C8 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F8550322637248006798C8 /* main.m */; };
-		D4F8550C22637419006798C8 /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F8550B22637419006798C8 /* MainPresenter.m */; };
+		D4F8552822637A1C006798C8 /* MainPresenter.m in Sources */ = {isa = PBXBuildFile; fileRef = D4F8552722637A1C006798C8 /* MainPresenter.m */; };
 		ED5D6A9A9FF27F5FE43DD1D8 /* Pods_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6D653670450365EAF2B1E05 /* Pods_Demo.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,8 +30,8 @@
 		D4F8550022637248006798C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D4F8550222637248006798C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4F8550322637248006798C8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D4F8550A22637419006798C8 /* MainPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
-		D4F8550B22637419006798C8 /* MainPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
+		D4F8552622637A1C006798C8 /* MainPresenter.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainPresenter.h; sourceTree = "<group>"; };
+		D4F8552722637A1C006798C8 /* MainPresenter.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MainPresenter.m; sourceTree = "<group>"; };
 		D6D653670450365EAF2B1E05 /* Pods_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -93,8 +93,8 @@
 		D4F8550D2263741C006798C8 /* Scene */ = {
 			isa = PBXGroup;
 			children = (
-				D4F8550A22637419006798C8 /* MainPresenter.h */,
-				D4F8550B22637419006798C8 /* MainPresenter.m */,
+				D4F8552622637A1C006798C8 /* MainPresenter.h */,
+				D4F8552722637A1C006798C8 /* MainPresenter.m */,
 			);
 			path = Scene;
 			sourceTree = "<group>";
@@ -196,11 +196,11 @@
 				"${BUILT_PRODUCTS_DIR}/RegexKitLite/RegexKitLite.framework",
 				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
 				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/XXXViper/XXXViper.framework",
 				"${BUILT_PRODUCTS_DIR}/YYKit/YYKit.framework",
 				"${BUILT_PRODUCTS_DIR}/oc-string/oc_string.framework",
 				"${BUILT_PRODUCTS_DIR}/pop/pop.framework",
 				"${BUILT_PRODUCTS_DIR}/ui-base/ui_base.framework",
-				"${BUILT_PRODUCTS_DIR}/xxxviper/xxxviper.framework",
 			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
@@ -217,11 +217,11 @@
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RegexKitLite.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/XXXViper.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/YYKit.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/oc_string.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/pop.framework",
 				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ui_base.framework",
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/xxxviper.framework",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -260,7 +260,7 @@
 				D4F854F922637247006798C8 /* ViewController.m in Sources */,
 				D4F8550422637248006798C8 /* main.m in Sources */,
 				D4F854F622637247006798C8 /* AppDelegate.m in Sources */,
-				D4F8550C22637419006798C8 /* MainPresenter.m in Sources */,
+				D4F8552822637A1C006798C8 /* MainPresenter.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

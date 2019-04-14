@@ -65,7 +65,7 @@
 		D47B6A0821CF2F8D00214999 /* CoreModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D47B6A0721CF2F8D00214999 /* CoreModel.m */; };
 		D47B6A1021CF899800214999 /* CoreRouter.m in Sources */ = {isa = PBXBuildFile; fileRef = D47B6A0F21CF899800214999 /* CoreRouter.m */; };
 		D4B11C9421D4D94F00692FD1 /* XXVInitModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D4B11C9321D4D94F00692FD1 /* XXVInitModel.m */; };
-		D4F8551D226378E1006798C8 /* xxxviper_ios.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F8551B226378E1006798C8 /* xxxviper_ios.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D4F8551D226378E1006798C8 /* XXXViper.h in Headers */ = {isa = PBXBuildFile; fileRef = D4F8551B226378E1006798C8 /* XXXViper.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D4F85520226378E1006798C8 /* xxxviper_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4F85519226378E1006798C8 /* xxxviper_ios.framework */; };
 		D4F85521226378E1006798C8 /* xxxviper_ios.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D4F85519226378E1006798C8 /* xxxviper_ios.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		D4FCD02F22636AF200D57388 /* XXVBaseMiddleware.m in Sources */ = {isa = PBXBuildFile; fileRef = D4FCD02E22636AF200D57388 /* XXVBaseMiddleware.m */; };
@@ -232,7 +232,7 @@
 		D4B11C9221D4D94F00692FD1 /* XXVInitModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXVInitModel.h; sourceTree = "<group>"; };
 		D4B11C9321D4D94F00692FD1 /* XXVInitModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XXVInitModel.m; sourceTree = "<group>"; };
 		D4F85519226378E1006798C8 /* xxxviper_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = xxxviper_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		D4F8551B226378E1006798C8 /* xxxviper_ios.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = xxxviper_ios.h; sourceTree = "<group>"; };
+		D4F8551B226378E1006798C8 /* XXXViper.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XXXViper.h; sourceTree = "<group>"; };
 		D4F8551C226378E1006798C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D4FCD02E22636AF200D57388 /* XXVBaseMiddleware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXVBaseMiddleware.m; sourceTree = "<group>"; };
 		E27275E262AED75EE60B5518 /* Pods_mvc_baseTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_mvc_baseTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -395,7 +395,7 @@
 		D4616C3E21D37D860021F048 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				D4F8551B226378E1006798C8 /* xxxviper_ios.h */,
+				D4F8551B226378E1006798C8 /* XXXViper.h */,
 				D4616C3F21D37D860021F048 /* Middleware */,
 				D4616C5821D37D860021F048 /* Util */,
 				D4616C5D21D37D860021F048 /* Interactor */,
@@ -690,7 +690,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D4F8551D226378E1006798C8 /* xxxviper_ios.h in Headers */,
+				D4F8551D226378E1006798C8 /* XXXViper.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

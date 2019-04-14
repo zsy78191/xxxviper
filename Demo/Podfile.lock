@@ -30,7 +30,7 @@ PODS:
     - SDWebImage
     - SVProgressHUD (~> 2.2.5)
     - YYKit
-  - xxxviper (0.1.0):
+  - XXXViper (0.1.1):
     - DZNEmptyDataSet
     - MagicalRecord
     - Masonry
@@ -43,7 +43,7 @@ PODS:
   - YYKit/no-arc (1.0.9)
 
 DEPENDENCIES:
-  - xxxviper (from `../`)
+  - XXXViper (from `../`)
 
 SPEC REPOS:
   https://github.com/cocoapods/specs.git:
@@ -64,7 +64,7 @@ SPEC REPOS:
     - YYKit
 
 EXTERNAL SOURCES:
-  xxxviper:
+  XXXViper:
     :path: "../"
 
 SPEC CHECKSUMS:
@@ -82,9 +82,9 @@ SPEC CHECKSUMS:
   SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   ui-base: 0babea0480a05031ec226e20b47f9698a919b822
-  xxxviper: ebac6195b711598ec4fb150127d759f07b90701e
+  XXXViper: f37d65813aa9dddbbf1351b41dfedea6217052e5
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
-PODFILE CHECKSUM: fb9b1b8fac9e820a1a95a914410d0f9e16209c46
+PODFILE CHECKSUM: 13cb0c15f96fb04b1b49827442bcd91bee04f2b9
 
 COCOAPODS: 1.6.0

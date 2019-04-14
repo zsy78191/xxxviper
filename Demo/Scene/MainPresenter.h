@@ -6,7 +6,7 @@
 //  Copyright © 2019 Gerinn. All rights reserved.
 //
 
-@import xxxviper;
+#import <XXXViper/XXXViper.h>
 
 NS_ASSUME_NONNULL_BEGIN
 

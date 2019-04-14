@@ -9,10 +9,10 @@
 #import <UIKit/UIKit.h>
 
 //! Project version number for xxxviper_ios.
-FOUNDATION_EXPORT double xxxviper_iosVersionNumber;
+FOUNDATION_EXPORT double XXXViperVersionNumber;
 
 //! Project version string for xxxviper_ios.
-FOUNDATION_EXPORT const unsigned char xxxviper_iosVersionString[];
+FOUNDATION_EXPORT const unsigned char XXXViperVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <xxxviper_ios/PublicHeader.h>
 

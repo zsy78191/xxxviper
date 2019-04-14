@@ -6,6 +6,6 @@ target 'Demo' do
   use_frameworks!
   inhibit_all_warnings! 
   # Pods for Demo
-  pod 'xxxviper',   :path =>'../'
+  pod 'XXXViper',   :path =>'../'
 
 end
