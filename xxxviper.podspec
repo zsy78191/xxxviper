@@ -15,8 +15,8 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "xxxviper"
-  s.version      = "0.1.0"
+  s.name         = "XXXViper"
+  s.version      = "0.1.1"
   s.summary      = "自用代码库VIPER框架"
 
   # This description is used to generate tags and improve search results.

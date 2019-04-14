@@ -8,8 +8,6 @@
 
 #import "XXVViewApperance.h"
 
- 
-
 @implementation XXVViewApperance
 
 - (void)mvp_setupView:(__kindof UIView *)view {
