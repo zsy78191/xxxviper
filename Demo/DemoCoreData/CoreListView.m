@@ -1,13 +1,13 @@
 //
 //  CoreListView.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/22.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
 #import "CoreListView.h"
-#import "MVPTableViewOutput.h"
+#import "XXVTableViewOutput.h"
 
 @interface CoreListView ()
 {
@@ -44,17 +44,17 @@
 
 - (Class)mvp_outputerClass
 {
-    return NSClassFromString(@"MVPTableViewOutput");
+    return NSClassFromString(@"XXVTableViewOutput");
 }
 
 - (void)mvp_configMiddleware
 {
     [super mvp_configMiddleware];
     
-    MVPTableViewOutput* o = (id)self.outputer;
+    XXVTableViewOutput* o = (id)self.outputer;
     [o mvp_registerClass:NSClassFromString(@"CoreCell") forCellReuseIdentifier:@"CoreCell"];
     
-    self.empty = [[MVPEmptyMiddleware alloc] init];
+    self.empty = [[XXVEmptyMiddleware alloc] init];
 }
 
 /*

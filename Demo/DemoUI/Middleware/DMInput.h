@@ -1,16 +1,16 @@
 //
 //  DMInput.h
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/24.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
-#import "MVPArrayInput.h"
+#import "XXVArrayInput.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface DMInput : MVPArrayInput
+@interface DMInput : XXVArrayInput
 
 @end
 

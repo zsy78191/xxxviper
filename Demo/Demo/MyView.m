@@ -1,6 +1,6 @@
 //
 //  ViewController.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/14.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -8,10 +8,10 @@
 
 #import "MyView.h"
 @import CoreData;
-#import "MVPTableViewOutput.h"
-#import "MVPArrayInput.h"
+#import "XXVTableViewOutput.h"
+#import "XXVArrayInput.h"
 #import "MyEmpty.h"
-#import "MVPCellActionModel.h"
+#import "XXVCellActionModel.h"
 @interface MyView ()  
 {
     
@@ -80,7 +80,7 @@
 
 - (Class)mvp_outputerClass
 {
-    return NSClassFromString(@"MVPTableViewOutput");
+    return NSClassFromString(@"XXVTableViewOutput");
 }
 
 #pragma mark - mvc
@@ -88,7 +88,7 @@
 - (void)mvp_configMiddleware
 {
     [super mvp_configMiddleware];
-    MVPTableViewOutput* o = (id)self.outputer;
+    XXVTableViewOutput* o = (id)self.outputer;
     [o mvp_registerNib:[UINib nibWithNibName:@"MyCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"MyCell"];
     [o mvp_registerClass:NSClassFromString(@"CoreCell") forCellReuseIdentifier:@"CoreCell"];
     [o setCanMove:YES];
@@ -96,18 +96,18 @@
     [o mvp_bindTableRefreshActionName:@"refreshData:"];
     
    
-    [o.actionsArrays addObject: MVPCellActionModel.m(^(__kindof MVPCellActionModel * _Nonnull m) {
+    [o.actionsArrays addObject: XXVCellActionModel.m(^(__kindof XXVCellActionModel * _Nonnull m) {
         m.title = @"1";
         m.color = [UIColor blueColor];
     })];
     
-    [o.actionsArrays addObject: MVPCellActionModel.m(^(__kindof MVPCellActionModel * _Nonnull m) {
+    [o.actionsArrays addObject: XXVCellActionModel.m(^(__kindof XXVCellActionModel * _Nonnull m) {
         m.title = @"\u267A \n2";
         m.action = @"actionDel:";
         m.color = [UIColor clearColor];
     })];
     
-    [o.leadActionsArrays addObject: MVPCellActionModel.m(^(__kindof MVPCellActionModel * _Nonnull m) {
+    [o.leadActionsArrays addObject: XXVCellActionModel.m(^(__kindof XXVCellActionModel * _Nonnull m) {
         m.title = @"\u267A \n2";
         m.action = @"actionDel:";
         m.color = [UIColor clearColor];

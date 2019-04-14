@@ -1,12 +1,12 @@
 //
 //  MyPresenter.h
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/14.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
-#import "MVPPresenter.h"
+#import "XXVInteractor.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
@@ -14,7 +14,7 @@ NS_ASSUME_NONNULL_BEGIN
 @property (nonatomic, strong) NSString* name;
 @end
 
-@interface MyPresenter : MVPPresenter
+@interface MyPresenter : XXVInteractor
 
 @property (nonatomic, strong) NSString* txt;
 @property (nonatomic, strong) NSString* txt2;

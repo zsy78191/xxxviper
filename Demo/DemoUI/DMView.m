@@ -1,15 +1,15 @@
 //
 //  DMView.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/24.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
 #import "DMView.h"
-#import "MVPTableViewOutput.h"
+#import "XXVTableViewOutput.h"
 #import "DMApperance.h"
-#import "MVPInitModel.h"
+#import "XXVInitModel.h"
 @interface DMView ()
 
 @end
@@ -24,14 +24,14 @@
     [item setTitle:@"修改测试"];
     self.navigationItem.rightBarButtonItem = item;
     
-    [self.presenter mvp_bindBlock:^(id view, id value) {
+    [self.interactor mvp_bindBlock:^(id view, id value) {
 //        NSLog(@"%@",value);
         DMView* v = view;
         v.navigationItem.rightBarButtonItem.title = [NSString stringWithFormat:@"修改 %@",value];
     } keypath:@"testCount"];
     
     
-    id x = [[self presenter] mvp_valueWithSelectorName:@"asd"];
+    id x = [[self interactor] mvp_valueWithSelectorName:@"asd"];
     NSLog(@"%@",x);
 }
 
@@ -42,22 +42,22 @@
 
 - (Class)mvp_outputerClass
 {
-    return NSClassFromString(@"MVPTableViewOutput");
+    return NSClassFromString(@"XXVTableViewOutput");
 }
 
 - (void)mvp_configMiddleware
 {
     [super mvp_configMiddleware];
     
-    MVPTableViewOutput* o = (id)self.outputer;
+    XXVTableViewOutput* o = (id)self.outputer;
     [o mvp_registerNib:[UINib nibWithNibName:@"AppTitleCell" bundle:[NSBundle mainBundle]] forCellReuseIdentifier:@"AppTitleCell"];
-    [o mvp_registerClass:NSClassFromString(@"MVPContentCell") forCellReuseIdentifier:@"Cell"];
+    [o mvp_registerClass:NSClassFromString(@"XXVContentCell") forCellReuseIdentifier:@"Cell"];
     [o setDragHideKeyboard:YES];
     self.appear = [[DMApperance alloc] init];
 }
 
 
-- (void)mvp_initFromModel:(MVPInitModel *)model
+- (void)mvp_initFromModel:(XXVInitModel *)model
 {
     NSLog(@"%@",[model queryProperties]);
 }

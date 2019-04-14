@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/14.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "AppDelegate.h"
 @import MagicalRecord;
-#import "MVPRouter.h"
+#import "XXVRouter.h"
 @interface AppDelegate ()
 
 @end
@@ -17,9 +17,9 @@
 
 - (void)registRouter
 {
-    [MVPRouter registView:NSClassFromString(@"CoreListView") forURL:@"demo://corelistview"];
-    [MVPRouter registView:NSClassFromString(@"DMView") forURL:@"demo://demoui"];
-    [MVPRouter registView:NSClassFromString(@"DCView") forURL:@"demo://democollectionview"];
+    [XXVRouter registView:NSClassFromString(@"CoreListView") forURL:@"demo://corelistview"];
+    [XXVRouter registView:NSClassFromString(@"DMView") forURL:@"demo://demoui"];
+    [XXVRouter registView:NSClassFromString(@"DCView") forURL:@"demo://democollectionview"];
 }
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {

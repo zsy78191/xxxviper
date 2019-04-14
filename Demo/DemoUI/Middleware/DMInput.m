@@ -1,6 +1,6 @@
 //
 //  DMInput.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/24.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -26,13 +26,13 @@
         _modelIdentifierTable =
             @{
               @"AppInfoModel":@"AppTitleCell",
-              @"MVPViewModel":@"Cell"
+              @"XXVViewModel":@"Cell"
               };
     }
     return _modelIdentifierTable;
 }
 
-- (NSString *)mvp_identifierForModel:(id<MVPModelProtocol>)model
+- (NSString *)mvp_identifierForModel:(id<XXVModelProtocol>)model
 {
     return self.modelIdentifierTable[NSStringFromClass([model class])];
 }

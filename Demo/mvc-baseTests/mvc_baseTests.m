@@ -1,14 +1,14 @@
 //
 //  mvc_baseTests.m
-//  mvc-baseTests
+//  xxxviperTests
 //
 //  Created by 张超 on 2018/12/14.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-#import "MVPModel.h"
-#import "MVPArrayInput.h"
+#import "XXVModel.h"
+#import "XXVArrayInput.h"
 @interface mvc_baseTests : XCTestCase
 
 @end
@@ -25,17 +25,17 @@
 
 - (void)testa
 {
-    MVPModel* m  = [[MVPModel alloc] init];
-    MVPModel* m2  = [[MVPModel alloc] init];
-    MVPModel* m3  = [[MVPModel alloc] init];
-    MVPModel* m4  = [[MVPModel alloc] init];
+    XXVModel* m  = [[XXVModel alloc] init];
+    XXVModel* m2  = [[XXVModel alloc] init];
+    XXVModel* m3  = [[XXVModel alloc] init];
+    XXVModel* m4  = [[XXVModel alloc] init];
     NSLog(@"%@",m);
     NSLog(@"%@",m2);
     NSLog(@"%@",m3);
     NSLog(@"%@",m4);
     
     
-    MVPArrayInput* a = [[MVPArrayInput alloc] init];
+    XXVArrayInput* a = [[XXVArrayInput alloc] init];
     [a mvp_addModel:m];
     [a mvp_addModel:m2];
     [a mvp_addModel:m3];
@@ -52,7 +52,7 @@
 - (void)atestForModelSame {
     // This is an example of a functional test case.
     // Use XCTAssert and related functions to verify your tests produce the correct results.
-    MVPModel* m  = [[MVPModel alloc] init];
+    XXVModel* m  = [[XXVModel alloc] init];
     
     NSString* s1 = @"123";
     NSString* s2 = [@"123456" stringByReplacingOccurrencesOfString:@"456" withString:@""];

@@ -1,16 +1,16 @@
 //
 //  CoreModel.h
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/23.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
-#import "MVPModel.h"
+#import "XXVModel.h"
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface CoreModel : MVPModel
+@interface CoreModel : XXVModel
 @property (nonatomic, strong) NSString* name;
 @end
 

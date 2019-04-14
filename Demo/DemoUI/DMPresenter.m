@@ -1,6 +1,6 @@
 //
 //  DVPresenter.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/24.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -9,7 +9,7 @@
 #import "DMPresenter.h"
 #import "DMInput.h"
 #import "AppInfoModel.h"
-#import "MVPViewModel.h"
+#import "XXVViewModel.h"
 
 @import ui_base;
 @interface DMPresenter()
@@ -30,7 +30,7 @@
     return _inputer;
 }
 
-- (id)mvp_inputerWithOutput:(id<MVPOutputProtocol>)output
+- (id)mvp_inputerWithOutput:(id<XXVOutputProtocol>)output
 {
     return self.inputer;
 }
@@ -44,8 +44,8 @@
         app.appVersion =  UIApplication.sharedApplication.buildVersion();
         [self.inputer mvp_addModel:app];
 
-        MVPViewModel* m = [[MVPViewModel alloc] init];
-        m.view = [MVPRouter viewForURL:@"demo://democollectionview" withUserInfo:@{}];
+        XXVViewModel* m = [[XXVViewModel alloc] init];
+        m.presenter = [XXVRouter viewForURL:@"demo://democollectionview" withUserInfo:@{}];
         m.height = 120;
         [self.inputer mvp_addModel:m];
         
@@ -72,7 +72,7 @@
    
 }
 
-- (void)mvp_action_withModel:(id<MVPModelProtocol>)model value:(id)value
+- (void)mvp_action_withModel:(id<XXVModelProtocol>)model value:(id)value
 {
     if ([model isKindOfClass:[AppInfoModel class]]) {
         NSLog(@"%@",value);
@@ -89,7 +89,7 @@
 }
 
 
-- (void)mvp_initFromModel:(MVPInitModel *)model
+- (void)mvp_initFromModel:(XXVInitModel *)model
 {
     NSLog(@"%@",model);
 }
@@ -100,7 +100,7 @@
     NSLog(@"%@",[self.router valueForRouterURL:@"demo://getTestString2"]);
 }
 
-- (void)mvp_gestrue:(__kindof UIGestureRecognizer *)gesture model:(id<MVPModelProtocol>)model
+- (void)mvp_gestrue:(__kindof UIGestureRecognizer *)gesture model:(id<XXVModelProtocol>)model
 {
     NSLog(@"%@",gesture);
 }

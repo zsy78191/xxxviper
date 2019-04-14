@@ -1,13 +1,13 @@
 //
 //  DCView.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/25.
 //  Copyright © 2018 orzer. All rights reserved.
 //
 
 #import "DCView.h"
-#import "MVPCollectViewOutput.h"
+#import "XXVCollectViewOutput.h"
 #import "DCApper.h"
 #import "DCOutput.h"
 @interface DCView ()
@@ -43,7 +43,7 @@
     if ([self.type isEqualToString:@"collection"]) {
         return NSClassFromString(@"DCOutput");
     }
-    return NSClassFromString(@"MVPCollectViewOutput");
+    return NSClassFromString(@"XXVCollectViewOutput");
 }
 
 - (void)mvp_configMiddleware
@@ -55,12 +55,12 @@
         [o mvp_registerNib:[UINib nibWithNibName:@"DCCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"CoreCell"];
     }
     else {
-        MVPCollectViewOutput* o = (id)self.outputer;
+        XXVCollectViewOutput* o = (id)self.outputer;
         [o mvp_registerNib:[UINib nibWithNibName:@"DCCell" bundle:[NSBundle mainBundle]] forCellWithReuseIdentifier:@"cell"];
     }
 
     self.appear = [[DCApper alloc] init];
-    self.empty = [[MVPEmptyMiddleware alloc] init];
+    self.empty = [[XXVEmptyMiddleware alloc] init];
 }
 
 - (Class)mvp_presenterClass

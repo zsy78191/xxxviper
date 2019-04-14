@@ -1,6 +1,6 @@
 //
 //  DCPresenter.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/25.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -38,7 +38,7 @@
     return _inputerCore;
 }
 
-- (id)mvp_inputerWithOutput:(id<MVPOutputProtocol>)output
+- (id)mvp_inputerWithOutput:(id<XXVOutputProtocol>)output
 {
     if ([output isKindOfClass:NSClassFromString(@"DCOutput")]) {
         return self.inputerCore;

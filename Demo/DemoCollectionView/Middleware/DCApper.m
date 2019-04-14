@@ -1,6 +1,6 @@
 //
 //  DCApper.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/25.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -13,13 +13,13 @@
 - (void)mvp_setupView:(__kindof UIView *)view
 {
     switch (view.tag) {
-        case MVPViewTagManageView:
+        case XXVViewTagManageView:
         {
             [view setBackgroundColor:[UIColor clearColor]];
             [self setupCollectionView:view];
             break;
         }
-        case MVPViewTagContentView:
+        case XXVViewTagContentView:
         {
             break;
         }

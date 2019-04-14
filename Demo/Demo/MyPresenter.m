@@ -1,6 +1,6 @@
 //
 //  MyPresenter.m
-//  mvc-base
+//  xxxviper
 //
 //  Created by 张超 on 2018/12/14.
 //  Copyright © 2018 orzer. All rights reserved.
@@ -8,7 +8,7 @@
 
 #import "MyPresenter.h"
 #import "Maininput.h"
-#import "MVPComplexInput.h"
+#import "XXVComplexInput.h"
 #import "CoreInput.h"
 #import "MyView.h"
 #import "MyModel.h"
@@ -21,7 +21,7 @@
 }
 @property (nonatomic, strong) MainInput* mainInput;
 @property (nonatomic, strong) CoreInput* coreInput;
-@property (nonatomic, strong) MVPComplexInput* ci;
+@property (nonatomic, strong) XXVComplexInput* ci;
 @property (nonatomic, strong) NSString* testString;
 @end
 
@@ -44,16 +44,16 @@
     return _coreInput;
 }
 
-- (MVPComplexInput *)ci
+- (XXVComplexInput *)ci
 {
     if (!_ci) {
-        _ci = [[MVPComplexInput alloc] init];
+        _ci = [[XXVComplexInput alloc] init];
     }
     return _ci;
 }
 
 
-- (id)mvp_inputerWithOutput:(id<MVPOutputProtocol>)output
+- (id)mvp_inputerWithOutput:(id<XXVOutputProtocol>)output
 {
     [self.ci addInput:self.coreInput];
     [self.ci addInput:self.mainInput];
@@ -103,28 +103,28 @@
 - (void)openCore
 {
 //    CoreListView* view = [[CoreListView alloc] init];
-    id view = [MVPRouter viewForURL:@"demo://corelistview" withUserInfo:@{@"a":@(1)}];
-    [self.view mvp_pushViewController:view];
+    id view = [XXVRouter viewForURL:@"demo://corelistview" withUserInfo:@{@"a":@(1)}];
+    [self.presenter mvp_pushViewController:view];
 }
 
 - (void)openCore2
 {
     //    CoreListView* view = [[CoreListView alloc] init];
-    id view = [MVPRouter viewForURL:@"demo://democollectionview" withUserInfo:@{@"type":@"collection"}];
-    [self.view mvp_pushViewController:view];
+    id view = [XXVRouter viewForURL:@"demo://democollectionview" withUserInfo:@{@"type":@"collection"}];
+    [self.presenter mvp_pushViewController:view];
 }
 
 
 - (void)openUI
 {
-    id view = [MVPRouter viewForURL:@"demo://demoui?asd=123" withUserInfo:@{@"a":@(1)}];
-    [self.view mvp_pushViewController:view];
+    id view = [XXVRouter viewForURL:@"demo://demoui?asd=123" withUserInfo:@{@"a":@(1)}];
+    [self.presenter mvp_pushViewController:view];
 }
 
 - (void)openCollectionView:(id)a
 {
-    id view = [MVPRouter viewForURL:@"demo://democollectionview" withUserInfo:nil];
-    [self.view mvp_pushViewController:view];
+    id view = [XXVRouter viewForURL:@"demo://democollectionview" withUserInfo:nil];
+    [self.presenter mvp_pushViewController:view];
 }
 
 - (void)refreshData:(UIRefreshControl*)control
