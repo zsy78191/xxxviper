@@ -30,7 +30,7 @@ PODS:
     - SDWebImage
     - SVProgressHUD (~> 2.2.5)
     - YYKit
-  - XXXViper (0.1.1):
+  - XXXViper (0.1.2):
     - DZNEmptyDataSet
     - MagicalRecord
     - Masonry
@@ -82,7 +82,7 @@ SPEC CHECKSUMS:
   SDWebImage: 5de80a0302de9e377e62f47d2fa1304efff0e55f
   SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
   ui-base: 0babea0480a05031ec226e20b47f9698a919b822
-  XXXViper: f37d65813aa9dddbbf1351b41dfedea6217052e5
+  XXXViper: bf1a8abe504a06f7b702a8bf1585c913fa1affa1
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
 
 PODFILE CHECKSUM: 13cb0c15f96fb04b1b49827442bcd91bee04f2b9

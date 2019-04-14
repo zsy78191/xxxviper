@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "D46DFB8A21C361C100675B86"
-               BuildableName = "xxxviper.app"
-               BlueprintName = "xxxviper"
-               ReferencedContainer = "container:xxxviper.xcodeproj">
+               BuildableName = "XXXViper.app"
+               BlueprintName = "XXXViper"
+               ReferencedContainer = "container:XXXViper.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -35,7 +35,7 @@
                BlueprintIdentifier = "D46DFBA221C361C100675B86"
                BuildableName = "xxxviperTests.xctest"
                BlueprintName = "xxxviperTests"
-               ReferencedContainer = "container:xxxviper.xcodeproj">
+               ReferencedContainer = "container:XXXViper.xcodeproj">
             </BuildableReference>
          </TestableReference>
          <TestableReference
@@ -45,7 +45,7 @@
                BlueprintIdentifier = "D46DFBAD21C361C100675B86"
                BuildableName = "xxxviperUITests.xctest"
                BlueprintName = "xxxviperUITests"
-               ReferencedContainer = "container:xxxviper.xcodeproj">
+               ReferencedContainer = "container:XXXViper.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -53,9 +53,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D46DFB8A21C361C100675B86"
-            BuildableName = "xxxviper.app"
-            BlueprintName = "xxxviper"
-            ReferencedContainer = "container:xxxviper.xcodeproj">
+            BuildableName = "XXXViper.app"
+            BlueprintName = "XXXViper"
+            ReferencedContainer = "container:XXXViper.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -76,9 +76,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D46DFB8A21C361C100675B86"
-            BuildableName = "xxxviper.app"
-            BlueprintName = "xxxviper"
-            ReferencedContainer = "container:xxxviper.xcodeproj">
+            BuildableName = "XXXViper.app"
+            BlueprintName = "XXXViper"
+            ReferencedContainer = "container:XXXViper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -95,9 +95,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "D46DFB8A21C361C100675B86"
-            BuildableName = "xxxviper.app"
-            BlueprintName = "xxxviper"
-            ReferencedContainer = "container:xxxviper.xcodeproj">
+            BuildableName = "XXXViper.app"
+            BlueprintName = "XXXViper"
+            ReferencedContainer = "container:XXXViper.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

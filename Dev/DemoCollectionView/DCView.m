@@ -63,7 +63,7 @@
     self.empty = [[XXVEmptyMiddleware alloc] init];
 }
 
-- (Class)mvp_presenterClass
+- (Class)mvp_interactorClass
 {
     return NSClassFromString(@"DCPresenter");
 }

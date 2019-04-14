@@ -73,7 +73,7 @@
     NSLog(@"%s",__func__);
 }
 
-- (Class)mvp_presenterClass
+- (Class)mvp_interactorClass
 {
     return NSClassFromString(@"MyPresenter");
 }

@@ -35,7 +35,7 @@
     NSLog(@"%@",x);
 }
 
-- (Class)mvp_presenterClass
+- (Class)mvp_interactorClass
 {
     return NSClassFromString(@"DMPresenter");
 }

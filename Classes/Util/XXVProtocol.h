@@ -59,6 +59,8 @@ NS_ASSUME_NONNULL_BEGIN
 
 @optional
 
+- (__kindof UIView*)view;
+
 - (void)mvp_pushViewController:(__kindof UIViewController*)vc;
 - (void)mvp_popViewController:(__kindof UIViewController*)vc;
 - (void)mvp_showViewController:(__kindof UIViewController*)vc;
@@ -99,7 +101,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (void)mvp_runAction:(SEL)selector;
 
 @required
-- (Class)mvp_presenterClass;
+- (Class)mvp_interactorClass;
 - (Class)mvp_outputerClass;
 
 @property (nonatomic, strong, readonly) id<XXVInteractorProtocol,XXVInteractorProtocol_private> interactor;

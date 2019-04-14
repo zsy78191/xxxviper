@@ -14,10 +14,18 @@
 
 @implementation MainPresenter
 
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
 }
+
+- (Class)mvp_presenterClass
+{
+    return NSClassFromString(@"MainInteractor");
+}
+
 
 /*
 #pragma mark - Navigation

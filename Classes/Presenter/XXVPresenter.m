@@ -84,7 +84,7 @@ void uibase_swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelecto
 - (id<XXVInteractorProtocol,XXVInteractorProtocol_private>)interactor
 {
     if (!_interactor) {
-        _interactor = [[[self mvp_presenterClass] alloc] init];
+        _interactor = [[[self mvp_interactorClass] alloc] init];
         _interactor.presenter = self;
     }
     return _interactor;
@@ -143,7 +143,7 @@ void uibase_swizzleMethod(Class class, SEL originalSelector, SEL swizzledSelecto
     
 }
 
-- (Class)mvp_presenterClass
+- (Class)mvp_interactorClass
 {
     return NSClassFromString(@"XXVPresenter");
 }

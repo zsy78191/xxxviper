@@ -191,7 +191,7 @@
 		D4616C7221D37D860021F048 /* XXVSubView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXVSubView.h; sourceTree = "<group>"; };
 		D4616C7421D37D860021F048 /* XXVRouter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XXVRouter.h; sourceTree = "<group>"; };
 		D4616C7521D37D860021F048 /* XXVRouter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XXVRouter.m; sourceTree = "<group>"; };
-		D46A999221CA315F0019AE67 /* xxxviper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = xxxviper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D46A999221CA315F0019AE67 /* XXXViper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XXXViper.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46A999321CA315F0019AE67 /* xxxviperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xxxviperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46A999421CA315F0019AE67 /* xxxviperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = xxxviperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D46A999621CA324B0019AE67 /* MainInput.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MainInput.h; sourceTree = "<group>"; };
@@ -578,7 +578,7 @@
 				2AD8DA5BC94E99190154B8CC /* Pods */,
 				D4F8551A226378E1006798C8 /* xxxviper-ios */,
 				686A8649DBC90BBB64691AA0 /* Frameworks */,
-				D46A999221CA315F0019AE67 /* xxxviper.app */,
+				D46A999221CA315F0019AE67 /* XXXViper.app */,
 				D46A999321CA315F0019AE67 /* xxxviperTests.xctest */,
 				D46A999421CA315F0019AE67 /* xxxviperUITests.xctest */,
 				D4F85519226378E1006798C8 /* xxxviper_ios.framework */,
@@ -697,9 +697,9 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D46DFB8A21C361C100675B86 /* xxxviper */ = {
+		D46DFB8A21C361C100675B86 /* XXXViper */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D46DFBB721C361C100675B86 /* Build configuration list for PBXNativeTarget "xxxviper" */;
+			buildConfigurationList = D46DFBB721C361C100675B86 /* Build configuration list for PBXNativeTarget "XXXViper" */;
 			buildPhases = (
 				F16A352A5DE62E22150AF6A5 /* [CP] Check Pods Manifest.lock */,
 				D46DFB8721C361C100675B86 /* Sources */,
@@ -713,9 +713,9 @@
 			dependencies = (
 				D4F8551F226378E1006798C8 /* PBXTargetDependency */,
 			);
-			name = xxxviper;
+			name = XXXViper;
 			productName = "mvc-base";
-			productReference = D46A999221CA315F0019AE67 /* xxxviper.app */;
+			productReference = D46A999221CA315F0019AE67 /* XXXViper.app */;
 			productType = "com.apple.product-type.application";
 		};
 		D46DFBA221C361C100675B86 /* xxxviperTests */ = {
@@ -799,7 +799,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D46DFB8621C361C100675B86 /* Build configuration list for PBXProject "xxxviper" */;
+			buildConfigurationList = D46DFB8621C361C100675B86 /* Build configuration list for PBXProject "XXXViper" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -812,7 +812,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D46DFB8A21C361C100675B86 /* xxxviper */,
+				D46DFB8A21C361C100675B86 /* XXXViper */,
 				D46DFBA221C361C100675B86 /* xxxviperTests */,
 				D46DFBAD21C361C100675B86 /* xxxviperUITests */,
 				D4F85518226378E1006798C8 /* xxxviper-ios */,
@@ -1046,12 +1046,12 @@
 /* Begin PBXTargetDependency section */
 		D46DFBA521C361C100675B86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D46DFB8A21C361C100675B86 /* xxxviper */;
+			target = D46DFB8A21C361C100675B86 /* XXXViper */;
 			targetProxy = D46DFBA421C361C100675B86 /* PBXContainerItemProxy */;
 		};
 		D46DFBB021C361C100675B86 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D46DFB8A21C361C100675B86 /* xxxviper */;
+			target = D46DFB8A21C361C100675B86 /* XXXViper */;
 			targetProxy = D46DFBAF21C361C100675B86 /* PBXContainerItemProxy */;
 		};
 		D4F8551F226378E1006798C8 /* PBXTargetDependency */ = {
@@ -1245,7 +1245,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.orzer.mvc-baseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xxxviper.app/xxxviper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXXViper.app/XXXViper";
 			};
 			name = Debug;
 		};
@@ -1265,7 +1265,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.orzer.mvc-baseTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/xxxviper.app/xxxviper";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/XXXViper.app/XXXViper";
 			};
 			name = Release;
 		};
@@ -1366,7 +1366,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D46DFB8621C361C100675B86 /* Build configuration list for PBXProject "xxxviper" */ = {
+		D46DFB8621C361C100675B86 /* Build configuration list for PBXProject "XXXViper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46DFBB521C361C100675B86 /* Debug */,
@@ -1375,7 +1375,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D46DFBB721C361C100675B86 /* Build configuration list for PBXNativeTarget "xxxviper" */ = {
+		D46DFBB721C361C100675B86 /* Build configuration list for PBXNativeTarget "XXXViper" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D46DFBB821C361C100675B86 /* Debug */,

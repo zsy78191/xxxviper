@@ -28,7 +28,7 @@ FOUNDATION_EXPORT const unsigned char XXXViperVersionString[];
 #import "XXVInitModel.h"
 #import "XXVCellActionModel.h"
 #import "XXVContentCell.h"
-#improt "XXVOutputProtocol.h"
+#import "XXVOutputProtocol.h"
 #import "XXVEmptyMiddleware.h"
 #import "XXVCollectViewOutput.h"
 #import "XXVTableViewOutput.h"
